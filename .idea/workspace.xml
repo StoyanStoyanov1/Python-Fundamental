@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8451d970-efde-4677-ae10-78dbc2fbf498" name="Changes" comment="" />
+    <list default="true" id="8451d970-efde-4677-ae10-78dbc2fbf498" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Black/OneDrive/Dokumente/GitHub/softuni_fundamentals_python/second_way/conditional_statement/exercises",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -44,7 +47,28 @@
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\first_way" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.square_flame">
+  <component name="RunManager" selected="Python.christmas_spirit">
+    <configuration name="christmas_spirit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="softuni_fundamentals_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second_way/conditional_statement/exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second_way/conditional_statement/exercises/christmas_spirit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="rhombus_of_stars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="softuni_fundamentals_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.christmas_spirit" />
         <item itemvalue="Python.square_flame" />
         <item itemvalue="Python.rhombus_of_stars" />
       </list>
