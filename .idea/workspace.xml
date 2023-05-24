@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8451d970-efde-4677-ae10-78dbc2fbf498" name="Changes" comment="" />
+    <list default="true" id="8451d970-efde-4677-ae10-78dbc2fbf498" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/second_way/list_advanced/exercises/anonymous_threat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/list_advanced/exercises/decipher_this.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/list_advanced/exercises/electron_distribution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/list_advanced/exercises/group_of_10's.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/list_advanced/exercises/next_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/list_advanced/exercises/number_classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/list_advanced/exercises/office_chairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/list_advanced/exercises/pokemon_don't_go.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/list_advanced/exercises/softuni_course_planning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/list_advanced/exercises/which_are_in.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/list_advanced/exercises/word_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,14 +46,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Black/OneDrive/Dokumente/GitHub/softuni_fundamentals_python/second_way/functions",
+    "last_opened_file_path": "C:/Users/Black/OneDrive/Dokumente/GitHub/softuni_fundamentals_python/second_way",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\functions" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way" />
+      <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\functions" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\conditional_statement" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\conditional_statement\exercises" />
     </key>
