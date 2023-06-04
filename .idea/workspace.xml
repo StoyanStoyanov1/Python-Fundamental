@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8451d970-efde-4677-ae10-78dbc2fbf498" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/second_way/dictionaries/more_exercises/center_point.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_way/dictionaries/more_exercises/data_types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_way/dictionaries/more_exercises/longer_line.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_way/dictionaries/more_exercises/multiplications_sign.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_way/dictionaries/more_exercises/tribonacci_sequence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,14 +35,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Black/OneDrive/Dokumente/GitHub/softuni_fundamentals_python/second_way/dictionaries",
+    "last_opened_file_path": "C:/Users/Black/OneDrive/Dokumente/GitHub/softuni_fundamentals_python/second_way",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\dictionaries" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way" />
+      <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\dictionaries" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\classes_and_objects" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\list_advanced" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\functions" />
