@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8451d970-efde-4677-ae10-78dbc2fbf498" name="Changes" comment="" />
+    <list default="true" id="8451d970-efde-4677-ae10-78dbc2fbf498" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/second_way/exams/01_mid_exam/computer_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/exams/01_mid_exam/memory_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/exams/01_mid_exam/the_lift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,14 +38,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Black/OneDrive/Dokumente/GitHub/softuni_fundamentals_python/second_way/regular_expressions",
+    "last_opened_file_path": "C:/Users/Black/OneDrive/Dokumente/GitHub/softuni_fundamentals_python/second_way",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\regular_expressions" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way" />
+      <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\regular_expressions" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\text_processing" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\dictionaries" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\classes_and_objects" />
