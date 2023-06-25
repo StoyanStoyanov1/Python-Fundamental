@@ -1,80 +1,33 @@
-def find_position(labyrinth):
-    position = []
-    for index in range(len(labyrinth)):
-        for symbol in labyrinth[index]:
-            if symbol == "k":
-                position.append(index)
-                position.append(labyrinth[index].find('k'))
-                return position
+def find_k_position(matrix):
+    for row in range(len(matrix)):
+        if "k" in matrix[row]:
+            return [row, matrix[row].index('k')]
 
 
-def whitespace(labyrinth):
-    whitespace_indexes = []
+def find_k_way(row, col, steps=0):
+    if row not in range(len(matrix)) or col not in range(len(matrix[0])):
+        return steps
 
-    for row_index in range(len(labyrinth)):
-        for colum_index in range(len(labyrinth[row_index])):
-            indexes = []
-            if labyrinth[row_index][colum_index] == " ":
-                indexes.append(row_index)
-                indexes.append(colum_index)
-                whitespace_indexes.insert(0, indexes)
+    if matrix[row][col] == "#":
+        return 0
 
-    return whitespace_indexes
+    matrix[row][col] = "#"
 
+    first_result = find_k_way(row + 1, col, steps + 1)
+    second_result = find_k_way(row, col + 1, steps + 1)
+    third_result = find_k_way(row - 1, col, steps + 1)
+    fourth_result = find_k_way(row, col - 1, steps + 1)
 
-def find_away(labyrinth, position, indexes_whitespace):
-    step = 0
-    moves = 0
-
-    while step < len(indexes_whitespace):
-        x1 = indexes_whitespace[step][0]
-        x2 = indexes_whitespace[step][1]
-        temp = []
-        temp.append(x1)
-        temp.append(x2)
-
-        if temp[0] == position[0] and position[1] - temp[1] == 1:
-            position = temp
-            moves += 1
-            indexes_whitespace.pop(step)
-            step = 0
-
-        elif temp[0] == position[0] and temp[1] - position[1] == 1:
-            position = temp
-            moves += 1
-            indexes_whitespace.pop(step)
-            step = 0
-
-        elif temp[0] - position[0] == 1 and position[1] == temp[1]:
-            position = temp
-            moves += 1
-            indexes_whitespace.pop(step)
-            step = 0
-
-        elif position[0] - temp[0] == 1 and position[1] == temp[1]:
-            position = temp
-            moves += 1
-            indexes_whitespace.pop(step)
-            step = 0
-
-        else:
-            step += 1
-
-    if position[0] == 0 or position[0] == (len(labyrinth) - 1) or position[1] == 0 or position[1] == len(labyrinth[0]):
-        return f"Kate got out in {moves + 1} moves"
-    return f"Kate cannot get out"
+    return max(first_result, second_result, third_result, fourth_result)
 
 
-count_rows = int(input())
+matrix = [list(input()) for _ in range(int(input()))]
+kate_position = find_k_position(matrix)
 
-moves = 0
-free_space = True
+found_k_way = find_k_way(kate_position[0], kate_position[1])
 
-labyrinth = []
-for row in range(count_rows):
-    labyrinth.append(input())
+if found_k_way:
+    print(f"Kate got out in {found_k_way} moves")
 
-position = find_position(labyrinth)
-indexes_whitespace = whitespace(labyrinth)
-movement = find_away(labyrinth, position, indexes_whitespace)
-print(movement)
+else:
+    print("Kate cannot get out")
