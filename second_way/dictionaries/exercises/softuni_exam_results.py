@@ -8,18 +8,12 @@ class SoftUniExamResults:
         self.points = points
         self.logic()
 
-    def username_is_valid(self):
-        for key in self.__exam_results.values():
-            for name in key.keys():
-                if name == self.username:
-                    return True
-
     def add_usernames(self):
         if self.language not in self.__exam_results:
             self.__exam_results[self.language] = {self.username: self.points}
             self.__counter[self.language] = 1
 
-        elif not self.username_is_valid():
+        elif self.username not in self.__exam_results[language]:
             self.__exam_results[self.language][self.username] = self.points
             self.__counter[self.language] += 1
 
