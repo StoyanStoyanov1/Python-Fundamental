@@ -1,37 +1,43 @@
-ROWS = int(input())
-matrix = [input().split() for _ in range(ROWS)]
-COLS = len(matrix[0])
+rows = int(input())
+matrix = [input().split() for _ in range(rows)]
+cols = len(matrix[0])
+
+count_steps = 0
 
 
-def is_safe(_matrix, row, col, visited):
-    if (row >= 0) and (col >= 0) and (row < ROWS) and (col < COLS):
-        if (matrix[row][col] == '.') and not visited[row][col]:
-            return True
+def find_the_len_dots(row, col):
+    global count_steps
+    if col not in range(cols):
+        return count_steps
+
+    if row not in range(rows):
+        return count_steps
+
+    if matrix[row][col] != ".":
+        return count_steps
+
+    matrix[row][col] = "-"
+    count_steps += 1
+
+    right_step = find_the_len_dots(row, col + 1)
+    left_step = find_the_len_dots(row, col - 1)
+    up_step = find_the_len_dots(row - 1, col)
+    down_step = find_the_len_dots(row + 1, col)
+
+    return count_steps
 
 
-def depth_first_search(_matrix, row, col, visited, count):
-    _rows = [-1, 0, 1, 0]
-    _cols = [0, 1, 0, -1]
-    visited[row][col] = True
-
-    for i in range(4):
-        if is_safe(_matrix, row + _rows[i], col + _cols[i], visited):
-            count[0] += 1
-            depth_first_search(_matrix, row + _rows[i], col + _cols[i], visited, count)
-
-
-def largest_region(_matrix):
-    visited = [[0] * COLS for _ in range(ROWS)]
-    result = 0
-
-    for i in range(ROWS):
-        for j in range(COLS):
-            if _matrix[i][j] == '.' and not visited[i][j]:
-                count = [1]
-                depth_first_search(_matrix, i, j, visited, count)
-                result = max(result, count[0])
-
-    return result
+def find_max_steps():
+    global count_steps
+    steps = []
+    for r in range(rows):
+        for c in range(cols):
+            if matrix[r][c] == ".":
+                count_steps = 0
+                steps.append(find_the_len_dots(r, c))
+    if steps:
+        return max(steps)
+    return 0
 
 
-print(largest_region(matrix))
+print(find_max_steps())
