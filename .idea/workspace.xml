@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8451d970-efde-4677-ae10-78dbc2fbf498" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/second_way/list_advanced/more_exercises/dots.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_way/list_advanced/more_exercises/dots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/dictionaries/more_exercises/dragon_army.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/dictionaries/more_exercises/judge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/dictionaries/more_exercises/moba_challenger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/dictionaries/more_exercises/ranking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/dictionaries/more_exercises/show_white.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,22 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Black/OneDrive/Dokumente/GitHub/softuni_fundamentals_python/second_way/list_advanced/more_exercises&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Black/OneDrive/Dokumente/GitHub/softuni_fundamentals_python/second_way/dictionaries",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\dictionaries" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\list_advanced\more_exercises" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\exams" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way" />
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\regular_expressions" />
-      <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way\text_processing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Black\OneDrive\Dokumente\GitHub\softuni_fundamentals_python\second_way" />
