@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8451d970-efde-4677-ae10-78dbc2fbf498" name="Changes" comment="" />
+    <list default="true" id="8451d970-efde-4677-ae10-78dbc2fbf498" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/second_way/exams/05_final_exam/activation_keys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/exams/05_final_exam/emoji_detector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_way/exams/05_final_exam/pirates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
